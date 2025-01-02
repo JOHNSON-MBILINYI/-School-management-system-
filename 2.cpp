@@ -71,7 +71,7 @@ void updateStudent() {
 void deleteStudent()
  {
     int id;
-    cout << "Enter the ID of the student to delete: ";
+    cout << "Enter  ID of the student to delete: ";
     cin >> id;
 
     for (auto it = students.begin(); it != students.end(); ++it) 
